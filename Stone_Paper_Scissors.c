@@ -28,9 +28,9 @@ int main(){
     }
 
     else if(random == 0 ){
-        printf("the computer chose stone. \n");
+        printf("the computer chose stone.\n");
     }
-    
+
     input == random ? printf("This is a tie.\n") :
 
     Sleep(tm_sec);
