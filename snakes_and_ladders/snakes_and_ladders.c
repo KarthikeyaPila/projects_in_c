@@ -61,5 +61,9 @@ int main() {
     if (updated_player_position == 100) {
       printf("congratss you won!!");
     }
+
   }
+
+ return 0;
+
 }
