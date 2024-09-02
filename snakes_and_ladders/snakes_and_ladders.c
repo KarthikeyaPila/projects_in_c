@@ -78,6 +78,8 @@ int main()
     }
     
     printf("\ncongratss you won!!");
+
+    free(no_of_players);
     
     return 0;
 }
