@@ -30,6 +30,7 @@ int update_pos_if_ladder_snake(int player_position)
             player_position = ladders[j][1];
         }
     }
+    
     return player_position;
 }
 
