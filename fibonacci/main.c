@@ -15,6 +15,11 @@ int main() {
   assert(fibonacci(-1) == 0);
   assert(fibonacci(-5) == 0);
   assert(fibonacci(-8) == 0);
-  printf("%ld\n", fibonacci(150));
+
+  // turns out i=93 is the limit for unsigned long long
+  for(int i=0; i<100; i++){
+    printf("%d -> %llu\n", i, fibonacci(i));
+  }
+
   return 0;
 }
