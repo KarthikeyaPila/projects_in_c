@@ -1,15 +1,19 @@
 int fibonacci(int index){
-  if(index == 0) {
+  if(index == 0){
+    return 0;
+  }
+
+  if(index == 1){
     return 1;
   }
+  
+  int arr[] = {0, 1};
+  int result = 0;
 
-  if(index == 1) {
-    return 1;
+  for(int i=2; i<=index; i++){
+    result = arr[0] + arr[1];
+    arr[i%2] = result;
   }
 
-  if(index > 1){
-    return fibonacci(index - 1) + fibonacci(index - 2);
-  }
-
-  else return 0;
+  return result;
 }
