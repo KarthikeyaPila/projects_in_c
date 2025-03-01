@@ -1,1 +1,1 @@
-int fibonacci(int index);
+long fibonacci(int index);

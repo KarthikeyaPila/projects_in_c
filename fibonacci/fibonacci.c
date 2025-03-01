@@ -1,4 +1,4 @@
-int fibonacci(int index){
+long fibonacci(int index){
   if(index == 0){
     return 0;
   }
@@ -7,8 +7,8 @@ int fibonacci(int index){
     return 1;
   }
   
-  int arr[] = {0, 1};
-  int result = 0;
+  long arr[] = {0, 1};
+  long result = 0;
 
   for(int i=2; i<=index; i++){
     result = arr[0] + arr[1];

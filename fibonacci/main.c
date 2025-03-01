@@ -15,6 +15,6 @@ int main() {
   assert(fibonacci(-1) == 0);
   assert(fibonacci(-5) == 0);
   assert(fibonacci(-8) == 0);
-  printf("%d\n", fibonacci(40));
+  printf("%ld\n", fibonacci(150));
   return 0;
 }
